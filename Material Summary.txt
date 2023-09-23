@@ -1,0 +1,127 @@
+# Material Sources:
+    - PPT - Project 1 Notes
+    - Canvas Starter File Package - Class_1_Activities
+
+
+# PPT
+    Projects & Collaboration with Git
+        Class Objectives - By the end of today’s class, you will be able to:
+            - Articulate the requirements for Project 1.
+            - Draw and interpret diagrams of Git branching workflows.
+            - Create new branches with Git.
+            - Push local branches to GitHub.
+
+        Project Week (This Week)!
+            - Before Day 1: 
+                - Form groups. ------------------------------------------------------[Status: Done.] - We are in group 6.
+                - Outline project ideas. --------------------------------------------[Status: In Progress]
+                - Perform an initial data exploration. ------------------------------[Status: In Progress]
+                - Begin research of datasets. ---------------------------------------[Status: In Progress]
+                - DAY 1: Submit a project proposal for approval via Github ----------[Status: In Progress]
+            - Day 2 & 3:
+                - Develop your project with your team.
+            - Day 4:
+                - Develop your project with your team.
+            - Day 5:
+                - Develop your project with your team and prepare your presentation.
+            - Day 6:
+                - Present your project to the class.
+
+        Project Requirements
+            - Presentation Requirements
+                - You will prepare a formal 10-minute presentation that covers the following topics:
+                    - Questions that you found interesting and what motivated you to answer them --------------------(Should be done before day 1)
+                    - Where and how you found the data you used to answer these questions ---------------------------(Should be done before day 1)
+                    - The data exploration and cleanup process (accompanied by your Jupyter notebook) ---------------(Should be done before day 2 & 3)
+                    - The analysis process (accompanied by your Jupyter notebook) -----------------------------------(Should be done before day 4)
+                    - Your conclusions, including a numerical summary and visualizations of the summary -------------(Should be done before day 5)
+                    - The implications of your findings: what do your findings mean? --------------------------------(Should be done before day 5)
+            
+            - Instructions
+                - Use Pandas to clean and format your dataset or datasets. ( No EXCEL)
+                - Create a Jupyter notebook describing the data exploration and cleanup process.
+                - Create a Jupyter notebook illustrating the final data analysis.
+                - Use Matplotlib to create 6 to 8 visualizations of your data (ideally, at least 2 visualizations per “question” that you ask your data). ( No EXCEL)
+                - Save PNG images of your visualizations to distribute to the class and instructional team—and for inclusion in your presentation.
+                - Create a write-up summarizing your major findings. 
+                    This should include a heading for each “question” that you asked your data as well as a short description of your findings and any relevant plots.
+                
+                - Bonus
+                    - Use at least one API—if you can find one with data pertinent to your primary research questions. **** EXTRA points
+        
+        Suggested Data Sources
+            - Feel free to ask the instructional staff for input, but our general advice is to stick to data sources that meet the following criteria:
+                - They are sufficiently large.
+                - They have a consistent format.
+                - They, ideally, contain more data than needed.
+                - They are well documented.
+
+        Choosing a Project Track
+            - This project gives you the ability to focus your efforts within a specific industry.
+                - Finance
+                - Healthcare
+                - Custom
+
+        EDA in Finance
+            - Why is exploratory data analysis important in the financial sector?
+                - Identifying deals, Private equity, Arbitrage opportunities, Liquidity, Finance/refinance trends
+            - Who would use this skill?
+                - Investment banking professionals, Private equity analysts, Lending analysts, Financial administrators, Real estate professional
+
+            EDA in finance example:        
+                Financial Analyst: Equity Trading
+                - 01. While working for a large equity trading company, you’re tasked with researching a client’s portfolio. 
+                  They want to invest in telecom stocks and need expert analysis to make the right decision.
+                - 02. Using the Nasdaq Data API, pull a year’s worth of trading data for the major cell phone providers: AT&T, T-Mobile, and Verizon.
+                - 03. Which stocks are trending upward? Which are trending down? From these data, what recommendations would you make to your client?
+
+                Financial Analyst: New Car Loan Analysis
+                - 01. People have been financing higher car values over longer amounts of time. 
+                      What is driving these decisions? 
+                - 02. Search for answers using data collected from the Federal Reserve Economic Data (FRED).
+                      What other questions can you answer with these data?
+                - 03. What do your results suggest about the time value of money?
+                      What about the impact of these loans as time goes on?
+
+        EDA in Healthcare
+            - Who in the healthcare industry does EDA?
+                - Clinical data analyst, Pharmaceutical testing, Healthcare economics researcher, Senior policy analyst, Compliance operations analyst, Public health informatics scientist
+            - Why is it important?
+                - Predicting and diagnosing illnesses, Greater accuracy and impact, Improve patient safety, Improve diagnoses, Greater understanding of disease risks and causes, Greater prevention strategies
+        
+            EDA in healthcare example:
+                Mental Health in Tech
+                - 01. People working in tech are often at their desks for extended amounts of time.
+                      How does this correlate to one’s mental health?
+                - 02. Examine the data collected through surveys and search for trends. 
+                      Find out if there is a link between mental health and companies that offer wellness programs.
+                - 03. What do the results show you about the prevalence of mental health in tech? 
+                      Can you suggest steps that companies can take to better aid their employees?
+                
+                Personal Fitness Analyst
+                - 01. Does working out help a person become more active overall?
+                      An analytic team with Personal Fitness, Inc. has decided to tackle this very question.
+                - 02. Using data collected by the Samsung Health application, the team wants to uncover trends within the data.
+                - 03. What do the results tell you about individuals using this app?
+                      Have their lifestyles become more active? Less? Remained the same?
+
+        EDA - Who else utilizes EDA? Everybody! We’ve only specified healthcare and finance as industry specifics, but any industry that uses data benefits from EDA.
+            Other professions that use it include:
+                - Natural and environmental scientists
+                - Marketing professionals
+                - Information security analysts
+                - Business intelligence analysts
+
+            EDA example:
+                Private Investigator
+                - 01. Use aggregate crime data from different police precincts in a city to uncover patterns in criminal activity.
+                - 02. Most crime in New York City takes place in the summer.
+                      Can you uncover similar patterns in your city?
+                - 03. What do your results suggest about how police should plan their patrols?
+                      What do your results suggest about how best to distribute law enforcement resources over the calendar year?
+
+                Uber Rides and Weather
+                - 01. No one likes to walk in subzero temperatures or scorching heat. Do people use Uber more when the weather is uncomfortable?
+                - 02. Using Uber ride data from Kaggle and data from a weather API, find out if people take Uber more during summer and winter, 
+                      and if there are relationships between daily temperature and ride frequency.
+                - 03. What do the results tell you about surge-pricing strategies and commuter habits?
